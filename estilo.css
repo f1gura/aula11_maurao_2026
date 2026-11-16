@@ -1,0 +1,161 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 16px 40px;
+    color: #222;
+    background: #f5f5f5;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+    padding: 12px 0;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #6a1b9a;
+}
+
+nav a {
+    color: #6a1b9a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav span {
+    margin-left: auto;
+    color: #555;
+}
+
+form.caixa {
+    background: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+form.caixa label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form.caixa small {
+    color: #666;
+}
+
+form.caixa input[type=text],
+form.caixa input[type=email],
+form.caixa input[type=password],
+form.caixa input[type=date],
+form.caixa input[type=number],
+form.caixa input[type=file],
+form.caixa textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    margin-top: 4px;
+}
+
+input[type=submit],
+button {
+    margin-top: 12px;
+    padding: 8px 16px;
+    border: 0;
+    border-radius: 4px;
+    background: #6a1b9a;
+    color: #fff;
+    cursor: pointer;
+}
+
+button.pequeno {
+    margin-top: 0;
+    padding: 4px 10px;
+}
+
+button.recusar {
+    background: #c62828;
+}
+
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.cartao {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    width: 160px;
+    text-align: center;
+}
+
+.cartao img {
+    height: 150px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.cartao h2 {
+    font-size: 16px;
+    margin: 8px 0 4px;
+}
+
+.cartao p {
+    margin: 2px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.detalhe {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.detalhe img {
+    max-height: 300px;
+    max-width: 100%;
+}
+
+.comentario,
+.pessoa {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px 12px;
+    margin-bottom: 10px;
+}
+
+.comentario p {
+    margin: 6px 0;
+}
+
+.pessoa {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.pessoa span {
+    margin-right: auto;
+}
+
+.pessoa form {
+    display: inline;
+}
+
+.aviso {
+    background: #fff3cd;
+    border: 1px solid #e0c36a;
+    border-radius: 8px;
+    padding: 12px;
+}
